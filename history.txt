@@ -1,0 +1,22 @@
+
+
+
+History
+
+   16  ssh-keygen -t ed25519 -C "khomotsomashiane00@gmail.com"
+   17  cd .ssh
+   18  eval "$(ssh -agent -s)"
+   19  ls
+   20  cat ~/.ssh/id_ed25519.pub
+   21  ssh -T git@github.com
+   22  cd
+   23  git clone git@github.com:khomotsomash56/student_sub_system.git
+   24  cd student_sub_system
+   25  codo .
+   26  code .
+   27  touch index.html
+   28  touch about.html
+   29  touch history.txt
+   30  git add .
+   31  git commit -m "added files 3"
+   32  history
